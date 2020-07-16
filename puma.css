@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+.container{
+    width: 1140px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background-color: #ffff99;
+}
+.header_logo a {
+    display: inline-block;
+}
+.header_logo a img{
+    max-height: 80px;
+}
+.header_nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.header_nav ul li a {
+    color: black;
+    font-size: 16px;
+}
+.header_nav {
+    line-height: 84px;
+    
+}
+.header_nav ul li{
+    border: 4px solid rgb(241, 181, 40);
+    height: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    line-height: 20px;
+}
+.header_nav ul li:hover{
+    box-shadow: 10px;
+    transform: scale(0.9);
+}
+.header_content_left {
+    display: flex;
+}
+.header_content_right ul li {
+    line-height: 20px;
+    border: 3px solid rgb(255, 218, 139);
+    height: 25px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 7px;
+    width: 33px;
+    display: inline-block;
+}
+.header_content_right ul li:hover{
+    box-shadow: 10px;
+    transform: scale(0.9);
+}
+.header_content_right ul li a{
+    color: rgb(207, 158, 43);
+    font-size: 17px;
+    line-height: 25px;
+}
+.header_content_right ul{
+    line-height: 84px;
+}
+.background {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 43%, rgba(255,255,144,1) 84%);
+}
+.subscribe {
+    display: flex;
+}
+.subscribe_text p{
+    width: 350px;
+}
+.chenar {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 218, 139);
+    height: 29px;
+    border: 2px solid orange;
+    padding-left: 15px;
+    width: 179px;
+    outline: 0;
+}
+.subscribe_form {
+        padding-top: 20px;
+        margin-left: 20px;
+        outline: 0px;
+}
+.btn-form {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: orange;
+    height: 35px;
+    border: 2px solid orange;
+    padding-left: 15px;
+    width: 200px;
+    outline: 0;
+    font-size: 15px;
+    color: white;
+}
+::placeholder {
+    color: #000000;
+  }
+  .btn-form:hover {
+      box-shadow: 0px 0px 7px;
+      background-color: transparent;
+      color: orange;
+      cursor: pointer;
+  }
